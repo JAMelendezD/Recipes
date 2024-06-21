@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.6.17)  17 JUN 2024 23:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2024.6.17)  21 JUN 2024 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,7 +951,11 @@ Writing index file OCR.idx
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(./OCR.aux)
+(./OCR.aux
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
+)
 \openout1 = `OCR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1045,16 +1049,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
+
+(./OCR.out) (./OCR.out)
 \@outlinefile=\write5
 \openout5 = `OCR.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
@@ -1151,7 +1153,11 @@ File: Pictures/cover.png Graphic file (type bmp)
 
 ] [2
 
-]
+] (./OCR.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+)
 \tf@toc=\write6
 \openout6 = `OCR.toc'.
 
@@ -1434,15 +1440,9 @@ LaTeX Info: Redefining \ttfamily on input line 19.
 )
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 43.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package rerunfilecheck Info: File `OCR.out' has not changed.
+(rerunfilecheck)             Checksum: 842DBEC00C0865F1345C657DBD4A7DEB;714.
 
-
-Package rerunfilecheck Warning: File `OCR.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `OCR.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  842DBEC00C0865F1345C657DBD4A7DEB;714.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1453,12 +1453,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
 ### simple group (level 1) entered at line 109 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27365 strings out of 481763
- 538665 string characters out of 5936151
- 827835 words of memory out of 5000000
- 43823 multiletter control sequences out of 15000+600000
+ 27377 strings out of 481763
+ 538770 string characters out of 5936151
+ 828820 words of memory out of 5000000
+ 43829 multiletter control sequences out of 15000+600000
  658948 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,100p,959b,1621s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,100p,959b,1617s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on OCR.pdf (31 pages).
