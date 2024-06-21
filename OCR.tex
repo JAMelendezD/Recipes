@@ -1,0 +1,43 @@
+%!TEX TS-program = xelatex
+
+\documentclass[twosides, 11pt]{book} 
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{cuisine}
+\usepackage{amssymb}
+
+\input{CoverPage.tex}
+\makeindex
+\begin{document}
+
+\maketitle
+\tableofcontents
+%\pagecolor{ocre}
+%\chapter{Tartes}
+
+\chapter{Pasta}
+\input{Recipes/Orzo}
+
+\chapter{Risotto}
+\input{Recipes/Mushroom}
+\input{Recipes/SaumonRachel}
+
+\chapter{Currie}
+\input{Recipes/Carbonnade}
+\input{Recipes/PastaRagu}
+%\chapter{Poissons}
+
+
+\chapter{Desserts}
+
+\input{Recipes/TarteAuxPommes}
+\input{Recipes/MousseChocolat}
+
+\chapter{Pains}
+\input{Recipes/Challa}
+
+
+
+\clearpage
+\printindex
+\end{document}
